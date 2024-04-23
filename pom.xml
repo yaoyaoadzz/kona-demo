@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.yaoyao</groupId>
+    <artifactId>kona-demo</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <release.version>${project.version}</release.version>
+    </properties>
+
+    <dependencies>
+<!--        kona start-->
+        <dependency>
+            <groupId>com.tencent.kona</groupId>
+            <artifactId>kona-crypto</artifactId>
+            <version>1.0.12</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tencent.kona</groupId>
+            <artifactId>kona-pkix</artifactId>
+            <version>1.0.12</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tencent.kona</groupId>
+            <artifactId>kona-provider</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tencent.kona</groupId>
+            <artifactId>kona-ssl</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+<!--        kona end-->
+
+<!--        jetty-all-->
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty.aggregate/jetty-all-server -->
+<!--        <dependency>-->
+<!--            <groupId>org.eclipse.jetty.aggregate</groupId>-->
+<!--            <artifactId>jetty-all-server</artifactId>-->
+<!--            <version>8.1.15.v20140411</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+
+
+
+
+        <!--    jetty    -->
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.4.51.v20230217</version>
+        </dependency>
+
+
+        <!--        jetty-servlet-->
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-servlet -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+            <version>9.4.51.v20230217</version>
+        </dependency>
+
+
+        <!--        servlet-api-->
+
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-client -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-client</artifactId>
+            <version>9.4.51.v20230217</version>
+        </dependency>
+
+
+
+
+
+
+    </dependencies>
+
+
+</project>
